@@ -30,7 +30,7 @@ const middle = function(array) {
      let middle = [array[middleIndex - 1], array[middleIndex]];
      return middle;
 
-   } else if (!array.length % 2 === 0) {
+   } else if (!array.length % 2 === 0) { //if array is odd
     
     let middleIndex = Math.floor(array.length / 2)
     let midNumber = [array[middleIndex]];
