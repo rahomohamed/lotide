@@ -27,6 +27,7 @@ const middle = function(array) {
 
    } else if (array.length % 2 === 0) { // if array is even 
      let middleIndex = array.length / 2;
+     console.log(middleIndex);
      let middle = [array[middleIndex - 1], array[middleIndex]];
      return middle;
 
