@@ -26,15 +26,14 @@ assertArraysEqual(eqArrays([1, 2, 3], [1, 2, 3]), true); // => should PASS
 const findKey = function(object, callback) {
   
   for (const key of Object.keys(object)) {
-  if (callback(object[key])) {
-  return key;
-  
-} else {
+    if (callback(object[key])) {
+      return key;
+  } else {
+
   }
-   
   }
   return undefined;
-};
+}
 
 
 
