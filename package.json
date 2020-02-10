@@ -1,11 +1,17 @@
 {
-  "name": "@raho.mohamed/lotide",
+  "name": "@username/lotide",
   "version": "1.0.0",
   "description": "Lotide Library",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
   },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2"
+  },
+
   "scripts": {
     "test": "mocha"
   },
