@@ -27,7 +27,7 @@ module.exports = {
   countOnly, 
   eqArrays,
   eqObjects,
-  findKey: findKey,
+  findKey,
   findKeyByValue,
   flatten,
   map,
